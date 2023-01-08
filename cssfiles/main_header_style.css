@@ -1,0 +1,148 @@
+    /* html {
+        overflow: -moz-hidden-unscrollable;
+        height: 100%;
+    } */
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* body {
+    -ms-overflow-style: none;
+    height: 100%;
+    width: calc(100vw + 18px);
+    overflow: auto;
+    } */
+
+    /* 主页—页头设计——将header包含在main之内 */
+    .main {
+        position: relative;
+        height: 960px;
+        width: 100%;
+        background-image: url(../images/main_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* header样式设计 */
+    .header {
+        position: sticky;
+        top: 0;
+        height: 138px;
+        width: 100%;
+        background-image: url(../images/head-bg.png);
+        z-index: 10;
+    }
+
+    /* 顶部导航栏设计 */
+    .hd-nav {
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+
+    .hd-nav li {
+        float: left;
+        font-size: 25px;
+        /* font-weight: 500; */
+        color: rgb(251, 255, 255);
+        text-align: center;
+        cursor: default;
+    }
+
+    .hd-nav .logo-img {
+        margin-top: 0;
+        border-bottom: 3px solid brown;
+    }
+
+    .hd-nav .logo-img img {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-right: 10px;
+        border-radius: 0 0 15px 0;
+    }
+
+    .hd-nav .logo {
+        letter-spacing: 2px;
+        position: relative;
+        font-size: 48px;
+        font-weight: 450;
+        margin-top: 12px;
+        margin-right: 120px;
+        padding-bottom: 41px;
+        border-bottom: 3px solid brown;
+    }
+
+    .hd-nav .logo .ps {
+        position: absolute;
+        top: 75px;
+        right: -55px;
+        line-height: 18px;
+        font-size: 18px;
+    }
+
+    .hd-nav span {
+        font-weight: 300;
+    }
+
+    /* 快捷导航-立即购买设计 */
+    .hd-nav .nav-guide,
+    .hd-nav .nav-pur {
+        position: relative;
+        font-weight: 500;
+        top: 20px;
+        left: 260px;
+        padding: 0 15px 30px 15px;
+    }
+
+    .hd-nav .about {
+        float: right;
+        position: relative;
+        top: 20px;
+        padding: 0 15px 30px 0;
+        margin-right: 40px;
+    }
+
+    .hd-nav .about {
+        right: 0px;
+    }
+
+    .hd-nav .nav-guide .guide,
+    .hd-nav .nav-pur .purchase,
+    .hd-nav .about .content {
+        display: none;
+        background-image: url(../images/head-bg.png);
+        background-size: 10%;
+        position: absolute;
+        border-radius: 10px;
+        left: 0px;
+        top: 60px;
+        height: 200px;
+        width: 160px;
+    }
+
+    .hd-nav .nav-guide .guide a,
+    .hd-nav .nav-pur .purchase a,
+    .hd-nav .about .content a {
+        line-height: 50px;
+        display: block;
+        width: 160px;
+        height: 50px;
+    }
+
+    .hd-nav .nav-guide:hover .guide,
+    .hd-nav .nav-pur:hover .purchase,
+    .hd-nav .about:hover .content {
+        display: block;
+    }
+
+    .hd-nav .nav-guide .guide a:hover,
+    .hd-nav .nav-pur .purchase a:hover,
+    .hd-nav .about .content a:hover {
+        transition: 0.1s ease-in-out;
+        font-size: 32px;
+        font-weight: 550;
+    }
