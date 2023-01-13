@@ -1,0 +1,98 @@
+body {
+    background-color: rgba(70, 70, 70, 0.3);
+}
+
+.header {
+    background-image: url(../../images/head-bg.png);
+    height: 138px;
+}
+
+h1 {
+    text-align: center;
+    line-height: 110px;
+    font-size: 64px;
+    color: aliceblue;
+}
+
+.renyuan,
+.intro,
+.content,
+.tool {
+    height: 250px;
+    border-bottom: 5px solid;
+    border-bottom: 10px solid rgb(30, 30, 30);
+}
+
+.intro {
+    height: 350px;
+}
+
+.content {
+    height: 500px;
+}
+
+.tool {
+    height: 1600px;
+}
+
+.conclusion {
+    height: 600px;
+}
+
+.lable span {
+    cursor: default;
+    position: relative;
+    top: -11px;
+    left: 10px;
+    padding: 5px;
+    background-color: brown;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 550;
+    color: aliceblue;
+    letter-spacing: 5px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.lable .sanjiao {
+    position: relative;
+    top: -0px;
+    left: 6px;
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 22px solid brown;
+    border-left: 30px solid brown;
+    border-right: 30px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.text {
+    position: relative;
+    top: 10px;
+    width: 1200px;
+    margin: 0 auto;
+    cursor: default;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    text-indent: 2em;
+}
+
+.text h2,
+.text h3,
+.text h4 {
+    color: brown;
+    text-indent: 0;
+}
+
+.text h4 {
+    text-indent: 2em;
+}
+
+.text img {
+    width: 450px;
+    height: 260px
+}
